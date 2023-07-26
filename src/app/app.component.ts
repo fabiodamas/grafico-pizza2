@@ -14,17 +14,20 @@ export class AppComponent implements OnInit {
       type: 'doughnut',
 
       data: {
-        labels: ['Red', 'Blue', 'Yellow'],
+        labels: ['Pendente Aprovação UO', 'Pendentes GEF', 'Pendentes recebedor', 'NF reprovadas', 'Pendentes aprovação UO'],
         datasets: [
           {
             label: 'My First Dataset',
-            data: [300, 50, 100],
+            data: [51, 24, 8, 5, 4],
             backgroundColor: [
-              'rgb(255, 99, 132)',
-              'rgb(54, 162, 235)',
-              'rgb(255, 205, 86)',
+              'rgb(167, 207, 139)',
+              'rgb(251, 189, 0)',
+              'rgb(233, 124, 48)',
+              'rgb(66, 112, 193)',
+              'rgb(163, 163,163)',
             ],
             hoverOffset: 4,
+            
           },
         ],
       },
