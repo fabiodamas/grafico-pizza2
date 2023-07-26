@@ -11,10 +11,10 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.chart = new Chart('canvas', {
-      type: 'doughnut',
+      type: 'pie',
 
       data: {
-        labels: ['Pendente Aprovação UO', 'Pendentes GEF', 'Pendentes recebedor', 'NF reprovadas', 'Pendentes aprovação UO'],
+        labels: ['Pendente Aprovação UO', 'Pendentes GEF', 'Pendentes recebedor', 'NF reprovadas', 'Pendentes Tesouraria'],
         datasets: [
           {
             label: 'My First Dataset',
